@@ -90,6 +90,10 @@
 
  /** Lang **/
 
+.lang{
+    display: flex;
+}
+
  .flag{
     display: flex;
     width: 25px;
@@ -101,5 +105,20 @@
     color: #CCCCCC;
     border: none;
     font-size: 1rem;
+    font-weight: bold;
+ }
+
+/** Accounts & Signin **/
+
+ .nav-signin{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.75rem;
+ }
+
+ .acc-lists{
+    background-color: black;
+    color: #ffffff;
+    border: none;
     font-weight: bold;
  }
