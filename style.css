@@ -53,9 +53,17 @@
 
 .nav-search{
     display: flex;
-    width: 620px;
+    width: 599px;
     height: 40px;
     border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid #febd69;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .search-select{
@@ -120,5 +128,45 @@
     background-color: black;
     color: #ffffff;
     border: none;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 0.9rem;
+ }
+
+ .ret-or {
+    text-decoration: none;
+ }
+
+ .return{
+    color: #ffffff;
+    font-size: 0.75rem;
+ }
+
+ .orders {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.9rem;
+ }
+
+ /**Cart **/
+
+ .nav-cart{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.9rem;
+ }
+
+ .nav-cart i{
+    font-size: 30px;
+ }
+
+ /** Panel **/
+.panel {
+    background-color: #232F3E;
+    display: flex;
+}
+
+ .panel-all{
+    color:#ffffff;
+    background-color: #232F3E;
  }
